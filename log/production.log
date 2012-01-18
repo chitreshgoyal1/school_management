@@ -1,0 +1,20 @@
+# Logfile created on Thu Dec 29 23:38:49 +0530 2011
+
+Processing UserController#login (for 127.0.0.1 at 2011-12-29 23:42:43) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 125ms (View: 113, DB: 7) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2011-12-29 23:42:49) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"jvzlF498xxlcSEYiS07ahdtquC2a8/A3AJ3w4UwTDKo=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 146ms (DB: 134) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2011-12-29 23:42:49) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 359ms (View: 174, DB: 180) | 200 OK [http://localhost/user/dashboard]
